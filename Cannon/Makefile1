@@ -1,0 +1,4 @@
+cannon: openmpcan.c
+	gcc -o cannon -fopenmp openmpcan.c -lm
+clean:
+	rm cannon
